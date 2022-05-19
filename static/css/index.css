@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.taskbar{
+    background-color: violet;
+    padding: 5px;
+    margin: 0px;
+    color: white;
+    box-shadow: 0px 10px 5px #aaaaaa;
+}
+
+.desc{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    padding-left: 20px;
+}
+
+.model{
+    width: 100%;
+    display: flex;
+}
+
+.images{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.images > a > img, .earrings > a > img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.earrings{
+    float: right;
+    margin-right: 100px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.output_image{
+    width: 500px;
+    height: 500px;
+}
+
+.output{
+    margin-left: auto;
+    margin-right: auto;
+}
