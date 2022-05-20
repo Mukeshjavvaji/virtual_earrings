@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '^sqn5**$$taaucy79cf)5tma=&gu2qd^1ngoj0=q8)l9(y=9ql'
+# SECRET_KEY = '^sqn5**$$taaucy79cf)5tma=&gu2qd^1ngoj0=q8)l9(y=9ql'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -125,5 +125,7 @@ STATICFILES_DIRS = [
 STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')"import django_heroku" 
-"django_heroku.settings(locals())" 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
+
+import django_heroku
+django_heroku.settings(locals()) 
